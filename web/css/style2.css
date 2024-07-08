@@ -1,0 +1,46 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.church-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.values-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.values-list li {
+    background-color: #f0f8ff;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.values-list li:hover {
+    background-color: #b0e0e6;
+    transform: translateY(-3px);
+}
+
+.values-list i {
+    margin-right: 0.5rem;
+    color: #4682b4;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+}
