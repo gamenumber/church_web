@@ -20,4 +20,4 @@ Google Fonts의 Noto Sans KR 폰트를 이용해서 더 예쁘게 바꾸고 간�
 
 github에 올리고, 이걸 실제로 무료로 포스팅 할 수 있는 githubpages를 이용했습니다.
 
-
+웹 페이지 링크 -> https://gamenumber.github.io/church_web/
